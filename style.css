@@ -1,0 +1,128 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Work+Sans:wght@300;400;500;600&display=swap');
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4eb;
+}
+main{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+ 
+
+}
+.container{
+    background: #FFFFFF;
+    width:870px ;
+    padding: 40px;
+    border-radius: 3px;
+    
+   
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 35px;
+}
+.title{   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #562EFF;
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.player img{
+    width: 55px;
+    height: 55px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+}
+/* Blogs style */
+/* ======================= */
+.thumnail img{
+    width: 177px;
+    height: 117px;
+    box-sizing: border-box;
+}
+.blog{
+    display: flex;
+    gap: 16px;
+    padding: 5px;
+    box-sizing: border-box;  
+}
+.blog-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    margin: 0px;
+}
+.blog-info a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+  
+
+}
+.blog-info p{
+    color: #9F9F9F;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+/* Blog flex style */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 80px;
+}
+
+.courses img{
+    width: 224px;
+    height: 104px;
+}
+.latest{
+    display: flex;
+    justify-content: space-between;
+}
+.courses h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.0336px;
+    margin-bottom: 5px;
+
+}
+.courses a{
+    color: #e43c16;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.container-2{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
